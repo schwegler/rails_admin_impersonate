@@ -34,7 +34,7 @@ module RailsAdmin
 
         RailsAdmin::Config::Actions.register(self)
       end
-      class BrowserStack < RailsAdmin::Config::Actions::Base
+      class Browserstack < RailsAdmin::Config::Actions::Base
         register_instance_option :visible? do
           ('Admin' != bindings[:abstract_model].model_name) &&
             authorized? && bindings[:object].respond_to?(:devise_modules)
