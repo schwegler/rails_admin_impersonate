@@ -3,4 +3,6 @@ en:
     actions:
       impersonate:
         menu: "Impersonate"
+      browserstack:
+        menu: "Impersonate With Browserstack"
 
