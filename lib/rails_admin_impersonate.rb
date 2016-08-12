@@ -49,7 +49,7 @@ module RailsAdmin
         end
 
         register_instance_option :http_methods do
-          [:get]
+          [:post]
         end
 
         register_instance_option :link_icon do
